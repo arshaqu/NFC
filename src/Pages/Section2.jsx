@@ -25,10 +25,10 @@ function Section2() {
 
         {/* Text Section */}
         <div className="flex-1 montserrat">
-  <h2 style={{fontWeight:'500'}} className="text-lg  mb-4 mt-24 lg:ml-[150px] lg:mt-[200px] lg:text-2xl">
+  <h2 style={{fontWeight:'500'}} className="text-lg  mb-4 mt-24 lg:ml-[150px] lg:mt-[200px] lg:text-4xl ">
     NEAR FIELD COMMUNICATION
   </h2>
-  <p className="text-white lg:w-[700px] font-normal lg:ml-[150px] lg:text-lg">
+  <p className="text-white lg:w-[700px] font-normal lg:ml-[150px]  lg:text-2xl">
     Technology allows users to make secure transactions, exchange digital content, and connect electronic devices with a touch. NFC transmissions are short range (from a touch to a few centimetres) and require the devices to be in close proximity.
   </p>
 </div>
@@ -46,6 +46,8 @@ function Section2() {
                 </a>
                 </div>
 
+              <h1 className=' lg:ml-[145px] mt-[145px] lg:text-[75px] text-[45px]'
+              style={{fontWeight:'600',color:'gray'}}> How to Nfc card connect</h1>
 
       {/* Icons Section */}
       <div className="flex flex-col lg:flex-row justify-center items-center mt-20 lg:mt-40 lg:space-x-96 space-y-8 lg:space-y-0">

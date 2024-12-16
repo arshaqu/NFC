@@ -2,6 +2,12 @@ import React from 'react';
 import Navbar from '../Components/Navbar';
 import image1 from '../Assets/Golden card.png';
 import Section2 from './Section2';
+import Connect from './Connect';
+import Options from './Options';
+import ImageSection from './ImageSection';
+import BusinessCard from './BusinessCard';
+import Questions from './Questions';
+import Footer from './Footer';
 
 function Home() {
   return (
@@ -140,6 +146,13 @@ function Home() {
         </div>
       </div>
               <Section2/>
+              <Connect/>
+              <Options/>
+              <ImageSection/>
+              <BusinessCard/>
+              <Questions/>
+              <Footer/>
+              
       {/* Responsive Media Query */}
       <style>
         {`
